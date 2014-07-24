@@ -1,0 +1,15 @@
+'''
+Created on Jul 24, 2014
+
+@author: Chandan
+'''
+import subprocess
+host=raw_input("Enter a host name:")
+cmd="ping "+host
+sys1=subprocess.Popen(cmd,shell=False,stdout=subprocess.PIPE)
+p=sys1.communicate()
+output=p.__getitem__(0)
+if "Lost = 4" in output:
+    print "Host unresponsive"
+else:
+    print output
