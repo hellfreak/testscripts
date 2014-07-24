@@ -1,7 +1,7 @@
 '''
 Created on Jul 18, 2014
 
-@author: Hellfreak
+@author: Chandan
 '''
 import os,string
 def hostping2(host):
@@ -35,7 +35,7 @@ if __name__=='__main__':
     try:
         print "##########################################"
         print "######______HOST PING SCRIPT______######\n"
-        print "#___________By h3llfr3@k___________#\n"
+        print "#___________By Chandan___________#\n"
         while True:
             rhost=raw_input("Enter a host name or IP address:")
             s=raw_input("Would you like to opt for switches(y/n)?")
