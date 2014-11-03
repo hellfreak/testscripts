@@ -1,7 +1,7 @@
 '''
 Created on Jul 22, 2014
 
-@author: Chandan
+@author: Hellfreak
 '''
 import os,string
 def ping1():
